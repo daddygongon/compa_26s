@@ -1,0 +1,60 @@
+---
+:nodes:
+- :id: 1
+  :name: readme_26s/
+  :type: dir
+  :file_path: "."
+  :icon_path:
+  :x: 200
+  :y: 219
+  :color: green
+  :fixed: true
+- :id: 2
+  :name: readme_26s.004.png
+  :type: file
+  :file_path: "./readme_26s.004.png"
+  :icon_path:
+  :x: 420
+  :y: 225
+  :color: green
+  :fixed: true
+- :id: 3
+  :name: readme_26s.003.png
+  :type: file
+  :file_path: "./readme_26s.003.png"
+  :icon_path:
+  :x: 412
+  :y: 177
+  :color: green
+  :fixed: true
+- :id: 4
+  :name: readme_26s.002.png
+  :type: file
+  :file_path: "./readme_26s.002.png"
+  :icon_path:
+  :x: 402
+  :y: 126
+  :color: green
+  :fixed: true
+- :id: 5
+  :name: readme_26s.001.png
+  :type: file
+  :file_path: "./readme_26s.001.png"
+  :icon_path: ".semi_lattice/icons/readme_26s.001.png"
+  :x: 390
+  :y: 76
+  :color: green
+  :fixed: true
+:edges:
+- :from: 1
+  # from: readme_26s/, to: readme_26s.004.png
+  :to: 2
+- :from: 1
+  # from: readme_26s/, to: readme_26s.003.png
+  :to: 3
+- :from: 1
+  # from: readme_26s/, to: readme_26s.002.png
+  :to: 4
+- :from: 1
+  # from: readme_26s/, to: readme_26s.001.png
+  :to: 5
