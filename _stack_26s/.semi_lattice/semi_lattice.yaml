@@ -1,0 +1,156 @@
+---
+:nodes:
+- :id: 1
+  :name: _stack_26s/
+  :type: dir
+  :file_path: "."
+  :icon_path:
+  :x: 367
+  :y: 509
+  :color: green
+  :fixed: true
+- :id: 2
+  :name: readme_26s/
+  :type: dir
+  :file_path: "./readme_26s"
+  :icon_path:
+  :x: 534
+  :y: 266
+  :color: green
+  :fixed: true
+- :id: 3
+  :name: readme_26s.004.png
+  :type: file
+  :file_path: "./readme_26s/readme_26s.004.png"
+  :icon_path:
+  :x: 565.604442040826
+  :y: 187.09398474585052
+  :color: orange
+  :fixed: false
+- :id: 4
+  :name: readme_26s.003.png
+  :type: file
+  :file_path: "./readme_26s/readme_26s.003.png"
+  :icon_path:
+  :x: 665
+  :y: 213
+  :color: green
+  :fixed: true
+- :id: 5
+  :name: readme_26s.002.png
+  :type: file
+  :file_path: "./readme_26s/readme_26s.002.png"
+  :icon_path:
+  :x: 669
+  :y: 154
+  :color: green
+  :fixed: true
+- :id: 6
+  :name: readme_26s.001.png
+  :type: file
+  :file_path: "./readme_26s/readme_26s.001.png"
+  :icon_path:
+  :x: 458.9827814921763
+  :y: 226.03230145042835
+  :color: orange
+  :fixed: false
+- :id: 7
+  :name: _stack_1st_260310/
+  :type: dir
+  :file_path: "./_stack_1st_260310"
+  :icon_path:
+  :x: 224
+  :y: 171
+  :color: green
+  :fixed: true
+- :id: 8
+  :name: hyper_card.html
+  :type: file
+  :file_path: "./_stack_1st_260310/hyper_card.html"
+  :icon_path:
+  :x: 59
+  :y: 91
+  :color: green
+  :fixed: true
+- :id: 9
+  :name: readme_26s.yaml
+  :type: file
+  :file_path: "./readme_26s.yaml"
+  :icon_path:
+  :x: 354
+  :y: 362
+  :color: green
+  :fixed: true
+- :id: 10
+  :name: readme_26s.key
+  :type: file
+  :file_path: "./readme_26s.key"
+  :icon_path:
+  :x: 224
+  :y: 390
+  :color: green
+  :fixed: true
+- :id: 11
+  :name: Rakefile
+  :type: file
+  :file_path: "./Rakefile"
+  :icon_path:
+  :x: 482
+  :y: 432
+  :color: green
+  :fixed: true
+- :id: 12
+  :name: style.css
+  :type: file
+  :file_path: "./style.css"
+  :icon_path:
+  :x: 424
+  :y: 395
+  :color: green
+  :fixed: true
+- :id: 13
+  :name: readme_26s.html
+  :type: file
+  :file_path: "./readme_26s.html"
+  :icon_path:
+  :x: 196
+  :y: 337
+  :color: green
+  :fixed: true
+:edges:
+- :from: 1
+  # from: _stack_26s/, to: readme_26s/
+  :to: 2
+- :from: 2
+  # from: readme_26s/, to: readme_26s.004.png
+  :to: 3
+- :from: 2
+  # from: readme_26s/, to: readme_26s.003.png
+  :to: 4
+- :from: 2
+  # from: readme_26s/, to: readme_26s.002.png
+  :to: 5
+- :from: 2
+  # from: readme_26s/, to: readme_26s.001.png
+  :to: 6
+- :from: 1
+  # from: _stack_26s/, to: _stack_1st_260310/
+  :to: 7
+- :from: 7
+  # from: _stack_1st_260310/, to: hyper_card.html
+  :to: 8
+- :from: 1
+  # from: _stack_26s/, to: readme_26s.yaml
+  :to: 9
+- :from: 1
+  # from: _stack_26s/, to: readme_26s.key
+  :to: 10
+- :from: 1
+  # from: _stack_26s/, to: Rakefile
+  :to: 11
+- :from: 1
+  # from: _stack_26s/, to: style.css
+  :to: 12
+- :from: 1
+  # from: _stack_26s/, to: readme_26s.html
+  :to: 13
