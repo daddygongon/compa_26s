@@ -8,7 +8,15 @@ $local_dir = File.join('~/Sites/new_ist/Lectures',$year)
 $lec_dir = File.expand_path(File.join($local_dir,$lecture))
 
 task :default do
+  p ['$lec_dir', $lec_dir]
   system "rake -T"
+end
+
+desc "remove image dir in local site"
+task :rm_image_dir => :show_dirs do 
+  p comm = "rm -rf #{File.join($lec_dir, $source_dir)}"
+  system comm
+  exit
 end
 
 desc "show necessary dirs for display light table DIR public." #desc -> description
