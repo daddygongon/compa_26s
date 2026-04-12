@@ -1,0 +1,22 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: d1 :: installer
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+MACRO: dummy_link @@html:<a href="#">$1</a>@@
+
+# for style.css, never move from here
+{{{dummy_link(prev_button)}}} 
+{{{dummy_link(up_button)}}}
+{{{dummy_link(next_button)}}} 
+# for a real link rewrite usual [[\url][]]
+
+* install
+| [[file:c2_layer_install.001.png]]        | [[file:./c2_layer_install.002.png]]      
+| [[file:./c2_layer_install.007.png]]      | [[file:./c2_layer_install.008.png]]      
+
+* specific steps
+| [[file:./c2_wsl_python_install.001.png]] | [[file:./c2_wsl_python_install.002.png]] | [[file:./c2_wsl_python_install.003.png]] |
