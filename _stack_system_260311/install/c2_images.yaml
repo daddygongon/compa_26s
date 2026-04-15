@@ -1,0 +1,16 @@
+---
+- :head: layer and installers
+  :files:
+  - c2_images/c2_layer_install.001.png
+  - c2_images/c2_layer_install.002.png
+  - c2_images/c2_layer_install.003.png
+  - c2_images/c2_layer_install.004.png
+  - c2_images/c2_layer_install.005.png
+  - c2_images/c2_layer_install.006.png
+  - c2_images/c2_layer_install.007.png
+  - c2_images/c2_layer_install.008.png
+- :head: specific procedure for wsl and python
+  :files:
+  - c2_images/c2_wsl_python_install.001.png
+  - c2_images/c2_wsl_python_install.002.png
+  - c2_images/c2_wsl_python_install.003.png
